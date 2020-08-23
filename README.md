@@ -4,10 +4,12 @@
 die zoologische Sammlung der Bibliothek der Friedrich-Alexander-Universität Erlangen-Nürnberg entdecken!<br>
 Ein Projekt von CodingDaVinci Süd 2019, vorgestellt bei der Langen Nacht der Wissenschaften in Erlangen.<br>
 Fortgeführt von Karin Kulhanek & Ploy Schneider im Rahmen eines CodingDaVinci-Stipendiums!<br><br>
-Die Website hat drei Teile:<br>
-<b>Entdecken</b> | mit Bildextraktion, Ähnlichkeitsgruppierung und dem Vikus Viewer können die Abbildungen durchstöbert werden<br>
+Die Website hat vier Teile:<br>
+<b>Entdecken</b> | mit Bildextraktion, Ähnlichkeitsgruppierung und dem Vikus Viewer können die Abbildungen durchstöbert werden.<br>
 <b>Herausfordern</b> | durch Mini-Games, wie Punch-a-Chamaeleon, wird die Sammlung spielerisch erlebbar (Altersgrenze nicht vorgegeben ;) )<br>
 <b>Erschaffen</b> | hier können eigene Wolpertinger & ChamaeleoDaVincis erstellt werden, der Fantasie sind keine Grenzen gesetzt!
+<b>Erfahren</b> | hier verwenden wir Zeichnungen, um Umweltschutzthemen zu transportieren. (neu hinzugekommen im Stipendium)
+Weitere Inhalte unter https://twitter.com/DigitaleSafari
 <br><br>
 ## Installation
 Die Website ist "hard gecoded" und sollte, sobald man den Ordner auf einen Server lädt, out of the box funktionieren. Nicht enhalten ist der Vikus Viewer, der 1) Code-Doppelung zum eigentlichen repository wäre und 2) zu viele Bilddateien enthält. Der Code wurde so gut wie möglich auskommentiert, da die Arbeit aber unter Zeitdruck entstand ist die Dokumentation möglicherweise nicht immer eindeutig. Nötige Anpassungen:<br>
