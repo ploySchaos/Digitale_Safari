@@ -7,8 +7,8 @@ Fortgeführt von Karin Kulhanek & Ploy Schneider im Rahmen eines CodingDaVinci-S
 Die Website hat vier Teile:<br>
 <b>Entdecken</b> | mit Bildextraktion, Ähnlichkeitsgruppierung und dem Vikus Viewer können die Abbildungen durchstöbert werden.<br>
 <b>Herausfordern</b> | durch Mini-Games, wie Punch-a-Chamaeleon, wird die Sammlung spielerisch erlebbar (Altersgrenze nicht vorgegeben ;) )<br>
-<b>Erschaffen</b> | hier können eigene Wolpertinger & ChamaeleoDaVincis erstellt werden, der Fantasie sind keine Grenzen gesetzt!
-<b>Erfahren</b> | hier verwenden wir Zeichnungen, um Umweltschutzthemen zu transportieren. (neu hinzugekommen im Stipendium)
+<b>Erschaffen</b> | hier können eigene Wolpertinger & ChamaeleoDaVincis erstellt werden, der Fantasie sind keine Grenzen gesetzt! <br>
+<b>Erfahren</b> | hier verwenden wir Zeichnungen, um Umweltschutzthemen zu transportieren. (neu hinzugekommen im Stipendium)<br>
 Weitere Inhalte unter https://twitter.com/DigitaleSafari
 <br><br>
 ## Installation
