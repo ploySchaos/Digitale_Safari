@@ -1,0 +1,892 @@
+/****
+* DIGITALE SAFARI
+* main stylesheet
+****/
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+}
+
+.rowDark {
+  color: #aeb1b7;
+  background-color: #332a35;
+  text-align: center;
+}
+
+#spacer-line {
+  vertical-align: middle;
+  background-color: #8E7C45;
+  height: 0.2em;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+/***** NAVI *****/
+
+.navbar {
+  background-color: #332a35;
+  font-family: "Fjalla One", sans-serif;
+  font-size: x-large;
+  font-weight: 300;
+  text-align: right;
+  color: #F2F3F4;
+  width: 100% !important;
+}
+
+.nav-item:hover {
+  color: #F2F3F4;
+  font-size: xx-large;
+  font-weight: 300;
+  transition: 0.2s linear;
+  vertical-align: baseline;
+}
+
+#logo {
+  height: 5em;
+  width: auto;
+}
+
+/***** HEADER *****/
+
+.rowDarkHeading {
+  padding: 15em 2em;
+  text-align: center;
+  background: url("../img/griph3.png"), radial-gradient(#332a35 20%, #1c1c21);
+  background-size: 80%, cover;
+  background-repeat: no-repeat, no-repeat;
+  width: auto;
+  height: 400px;
+  object-fit: cover;
+  background-position: top right, center;
+}
+
+.rowDarkHeading h1 {
+  line-height: 0.8em;
+  font-size: 4em;
+  font-family: 'Fjalla One', sans-serif;
+  margin-top: -3vh;
+}
+
+.rowHeading h1 span {
+  font-size: 0.3em;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  line-height: 0.8em;
+  font-size: 4em;
+  font-family: 'Fjalla One', sans-serif;
+  
+}
+
+.rowHeading p {
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif;
+}
+
+/****NEW CATEGORY CARD****/
+
+p.category-intro{
+  font-family: 'Roboto',sans-serif;
+  font-size:1.5em;
+  margin-top: 2em;
+  visibility: visible;
+}
+.rowDark .category-card {
+  margin-left: 0.8em;
+  margin-right: 0.8em;
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+.text-box {
+  position: absolute;
+  bottom: 6%;
+  width: 280px;
+  background-color: #918F8C;
+  opacity: 0.7;
+  padding-bottom: 20%;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: xx-large;
+  border-radius: 0 0 6px 6px;
+  color: white;
+}
+
+.text-category-card {
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: auto;
+  position: absolute;
+  text-align: left;
+}
+
+.img-category-card {
+  padding-left: 3.5 em;
+  width: 280px;
+  height: 410px;
+  filter: grayscale(85%) brightness(70%);
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.category:hover .img-category-card {
+  filter: grayscale(0%);
+  transition: linear 1.5s;
+  cursor: pointer;
+}
+
+.category:hover .text-box {
+  position: absolute;
+  background-color: #DCCCB3;
+  opacity: 0.7;
+  color: black;
+  transition: 1.5s;
+  bottom: 3%;
+  height: 27%;
+  margin-bottom: 0.5em;
+}
+
+#category-subtitle {
+  display: none;
+}
+
+.category:hover #category-subtitle {
+  display: inherit;
+  visibility: visible;
+  color: black;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: medium;
+  font-weight: lighter;
+  text-align: justify;
+  transition: display 2s linear;
+  margin-bottom: 0.3em;
+}
+
+/****AUTOREN****/
+
+.author:hover .text-author-card .subtitle {
+  visibility: visible;
+  transition: ease-in 1s;
+}
+
+.img-author-card {
+  padding-left: 2.5 em;
+  width: 280px;
+  height: 400px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.author:hover .img-author-card {
+  cursor: pointer;
+}
+
+.author:hover .text-author-card {
+  cursor: pointer;
+  position: absolute;
+  margin-top: 100%;
+  bottom: 0px;
+  transition: linear 1.5s;
+}
+
+.text-author-card {
+  font-family: 'Fjalla One', sans-serif;
+  position: absolute;
+  bottom: 260px;
+  text-align: center;
+  background-color: black;
+  color: #e2e3e4;
+  width: 282px;
+}
+
+.text-author-card .title {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.text-author-card .subtitle {
+  font-size: 1em;
+  visibility: collapse;
+}
+
+.authorRow1 {
+  padding-top: 2em;
+  padding-bottom: 1em;
+  background-color: #332a35;
+}
+
+.authorRow2 {
+  padding-top: 1.5em;
+  padding-bottom: 2em;
+  background-color: #332a35;
+}
+
+.modal-dialog {
+  min-height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media(max-width: 768px) {
+  .modal-dialog {
+    min-height: calc(100vh - 20px);
+  }
+}
+
+.author-card:hover .text-author-card .subtitle {
+  visibility: visible;
+}
+
+.author-card:hover .text-author-card {
+  position: absolute;
+  bottom: 0px;
+  transition: linear 1s;
+}
+
+.modal-header {
+  background-color: #332A35;
+  opacity: 70%;
+}
+
+.custom-modal-title {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 24px;
+  color: #e2e3e4;
+  line-height: 1.8;
+}
+
+.modal-portrait {
+  float: left;
+  border-radius: 6px;
+  margin-right: 1.5em;
+  width: 320px;
+  object-fit: cover;
+  padding-bottom: 1em;
+}
+
+.author-modal-text {
+  margin-left: 1.5em;
+}
+
+.modal-body {
+  background-color: #e2e3e4;
+  border-radius: 6px;
+}
+#modal-close{
+  font-size:2.5em;
+  color: #e2e3e4;
+}
+
+/****TEAM****/
+
+.rowChamaeleon {
+  min-height: 800px;
+  background: url("../img/chamaeleo/ChamaeleoDaVinci_deckend.png") center no-repeat;
+  background-size: cover;
+}
+
+.chamText {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.chamText p {
+  padding: 3em;
+  font-family: 'Roboto', sans-serif;
+  color: #332a35;
+}
+
+.original {
+  width: 90%;
+  margin-top: 2em;
+}
+
+.team-row {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.team-text>h1{
+  margin-top: -5%;
+}
+
+.team-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: large;
+  text-align: left;
+}
+
+.team-text .button {
+  color: #e2e3e4;
+  text-decoration: none;
+}
+
+.team-text .button:hover .doku {
+  cursor: pointer;
+  visibility: visible;
+  margin-left: -4em;
+}
+
+.team-text .button:hover #button-text {
+  visibility: hidden;
+}
+
+.doku {
+  visibility: hidden;
+}
+
+/***** FOOTER *****/
+
+footer {
+  padding: 2em;
+  text-align: center;
+  justify-content: justify;
+  background-color: #332a35;
+}
+
+footer>div>a {
+  padding: 2em;
+  text-decoration: none;
+  color: #f2f3f4;
+}
+
+footer a:hover, footer a:focus, footer a:active {
+  text-decoration: none;
+  color: #e2e3e4;
+}
+
+footer ul, footer ul li {
+  padding: 0em 4em;
+  display: inline;
+  list-style-type: none;
+}
+
+footer ul li img {
+  height: 3em;
+  width: auto;
+}
+
+/****ERSCHAFFEN***/
+
+.rowErschaffen {
+
+  text-align: center;
+  /*background: radial-gradient(#1c1c21,#332a35 20%);*/
+  background: #332a35;
+  background-repeat: no-repeat, no-repeat;
+  width: auto;
+  height: 300px;
+  object-fit: cover;
+  background-position: top right, center;
+}
+
+.js-odoo {
+  position: absolute;
+  fill: #8E7C45;
+  font-size: 8em;
+  font-family: 'Fjalla One', sans-serif;
+  left:11vw;
+  bottom: 40px;
+  overflow: hidden;
+}
+
+
+
+/****ERFAHREN****/
+
+.rowMoving {
+  background-color: #332a35;
+  overflow: scroll;
+  height: 80vh;
+  scroll-snap-type: y mandatory;
+  scroll-snap-points-y: repeat(80vh);
+  overflow-x: hidden;
+}
+
+.moving {
+  background-color: #332a35;
+  height: 80vh;
+  scroll-snap-align:start;
+  position: relative;
+  width: 70%;
+  margin: 3em auto;
+}
+
+#insektensterben .moving>img {
+  position: absolute;
+  height: 15%;
+  width: 15%;
+  object-fit: contain;
+  overflow: visible;
+  filter: brightness(125%);
+}
+
+.section1 {
+  background-image: url("../img/scroll-backgrounds/wiesequer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+audio {
+  position: absolute;
+  top: 84%;
+  right: 7%;
+}
+
+.section2 {
+  background-image: url("../img/scroll-backgrounds/bebauung.jpeg");
+  filter: contrast(170%);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section2>img {
+  max-width: 5vw;
+}
+
+
+
+.section3 {
+  background-image: url("../img/scroll-backgrounds/marcin-jozwiak-uKvPDQop-JA-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section4 {
+  background-image: url("../img/scroll-backgrounds/BV009474291_0279.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.insekten {
+  background-image: url("../img/scroll-backgrounds/feld-background.png");
+  border-radius: 2em;
+  background-position: 45% bottom;
+  filter: grayscale(80%);
+}
+
+.insekten:hover {
+  filter: grayscale(10%);
+  transition: 1s linear;
+  color: #383428;
+  text-shadow: 2.5px 2.5px #767c87;
+}
+
+.insekten:hover .insekten-Text {
+  transition: 1s linear;
+  color: #383428;
+  text-shadow: 2.5px 2.5px #767c87;
+}
+
+.insekten-Text {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 6vh;
+  position: relative;
+  margin-left: auto;
+  top: 15%;
+  color: #fdf6e3;
+  text-shadow: 2.5px 2.5px #8E7C45;
+}
+
+.insekten>img {
+  position: absolute;
+  max-width: 5vw;
+  filter: contrast(150%);
+}
+
+.quelltext {
+  font-family: "Roboto", sans-serif;
+  font-size: x-large;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+  color: #383428;
+}
+.attribution{
+  font-family: "Roboto", sans-serif;
+  font-size: large;
+}
+
+.quelltext>ul {
+  list-style-type: none;
+  text-decoration: none;
+  color: #383428;
+}
+
+.quelltext>ul>li>a {
+  text-decoration: none;
+  color: #383428;
+}
+.bulletpoint{
+  max-height: 3.5em;
+}
+
+li.vibrate:hover {
+  cursor: pointer;
+}
+
+li.vibrate:hover .bulletpoint {
+  -webkit-animation: tada 2s linear infinite;
+  animation: tada 2s linear infinite;
+}
+
+/* TADA */
+
+@-webkit-keyframes tada {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  10%, 20% {
+    -webkit-transform: scale(.9) rotate(-8deg);
+    transform: scale(.9) rotate(-8deg);
+  }
+  30%, 50%, 70% {
+    -webkit-transform: scale(1.1) rotate(8deg);
+    transform: scale(1.1) rotate(8deg);
+  }
+  40%, 60% {
+    -webkit-transform: scale(1.1) rotate(-8deg);
+    transform: scale(1.1) rotate(-8deg);
+  }
+  80% {
+    -webkit-transform: scale(1) rotate(0);
+    transform: scale(1) rotate(0);
+  }
+}
+
+@keyframes tada {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  10%, 20% {
+    -webkit-transform: scale(.9) rotate(-8deg);
+    -ms-transform: scale(.9) rotate(-8deg);
+    transform: scale(.9) rotate(-8deg);
+  }
+  30%, 50%, 70% {
+    -webkit-transform: scale(1.3) rotate(8deg);
+    -ms-transform: scale(1.3) rotate(8deg);
+    transform: scale(1.3) rotate(8deg);
+  }
+  40%, 60% {
+    -webkit-transform: scale(1.3) rotate(-8deg);
+    -ms-transform: scale(1.3) rotate(-8deg);
+    transform: scale(1.3) rotate(-8deg);
+  }
+  80% {
+    -webkit-transform: scale(1) rotate(0);
+    -ms-transform: scale(1) rotate(0);
+    transform: scale(1) rotate(0);
+  }
+}
+
+.faa-tada.animated, .faa-tada.animated-hover:hover, .faa-parent.animated-hover:hover>.faa-tada {
+  -webkit-animation: tada 2s linear infinite;
+  animation: tada 2s linear infinite;
+}
+.carousel.slide{
+ left: 58%;
+ width: 36%;
+}
+
+.carousel-inner {
+  position: relative;
+  background-color: rgba(77, 77, 77, 0.8);
+  color: #e2e3e4;
+  font-size: 16px;
+  top: 7% !important;
+  left:3%;
+  padding: 2em !important;
+  min-height: 100px !important;
+}
+
+#lebensRaumText {
+  font-family: "Roboto", sans-serif;
+  width: 450px !important;
+  margin-top: 1.5em !important;
+  margin-bottom: 1.5em !important;
+  
+}
+
+#MeerlebensRaum {
+  font-family: "Roboto", sans-serif;
+  width: 450px !important;
+  margin-top: 1.5em !important;
+  margin-bottom: 1.5em !important;
+  
+}
+
+#blum1 {
+  bottom: 5%;
+  right: 12%;
+}
+
+#blum2 {
+  bottom: 2%;
+  left: 5%;
+}
+
+#hirsch {
+  top: 23%;
+  left: 23%;
+  transform: rotate(25deg);
+}
+
+#schmetter1 {
+  top: 46%;
+  transform: rotate(-43deg);
+}
+
+#schmetter2 {
+  top: 56%;
+  right: 8%;
+  transform: rotate(-97deg);
+}
+
+.erfahren-Card {
+  position: relative;
+  height: 75vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 3vh 2vh 2vh;
+  width: 80%;
+}
+
+.korallen-Text {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 6vh;
+  position: absolute;
+  left: auto;
+  top: 15%;
+  color: #fdf6e3;
+  text-shadow: 2.5px 2.5px #8E7C45;
+  z-index: +2;
+}
+
+#korall1 {
+  position: absolute;
+  top: 53%;
+  left: 8%;
+  max-width: 5vw;
+}
+
+#korall2 {
+  position: absolute;
+  top: 42%;
+  max-width: 8vw;
+  right: -3%;
+}
+
+#korall3 {
+  position: absolute;
+  top: 70%;
+  max-width: 8vw;
+}
+
+#korall4 {
+  position: absolute;
+  top: 77%;
+  right: 42%;
+  width: 5vw;
+}
+
+.korallen {
+  background-image: url("../img/card-backgrounds/fernando-jorge--Jbg7G6RDSc-unsplash.jpg");
+  border-radius: 2em;
+  background-position: 45% bottom;
+  filter: grayscale(80%);
+}
+
+.korallen:hover {
+  filter: grayscale(0%);
+  transition: 1s linear;
+}
+
+.section5 {
+  background-image: url("../img/scroll-backgrounds/silas-baisch-7-NYhLwspG8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section6{
+  background-image: url("../img/scroll-backgrounds/brian-yurasits-qSOADa7byjs-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.section7{
+  background-image: url("../img/scroll-backgrounds/ahmed-areef-xSTZPuSmI8A-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#crossscreen{
+  position: absolute;
+  max-height:35vh;
+  
+  animation: swim 20s;
+	-webkit-animation: swim 20s;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	-webkit-animation-timing-function: linear;
+}
+#kugelfisch{
+  position: absolute;
+  max-height: 8vh;
+  right:18%;
+  top:57%;
+}
+#longfisch{
+  position: absolute;
+  max-width:8vw;
+}
+
+#scrolltotop{
+  display: inline-block;
+  background-color: #8E7C45;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 17vh;
+  right: 5vw;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+
+}
+#scrolltotop:after{
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#scrolltotop:hover{
+  cursor: pointer;
+  background-color:e2e3e4;
+}
+#scrolltotop.show{
+  opacity: 1;
+  visibility: visible;
+}
+
+/***** GAMES *****/
+
+/* menu */
+
+.rowGames {
+  text-align: center;
+  background: #1c1c21;
+}
+
+.rowDark .col-xs-12 {
+  padding: 0;
+}
+
+.rowGames .menu {
+  height: 300vh;
+  background-color: rgba(142, 124, 69, 0.6);
+}
+
+.rowGames .menuBroad {
+  width: 100%;
+  padding: 1em;
+  margin: 0;
+  text-align: center;
+  background-color: #767c87;
+}
+
+.rowGames img {
+  height: 5em;
+  width: 5em;
+  padding: 0.5em;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #1c1c21;
+}
+
+.rowGames .menu img {
+  margin-top: 3em;
+  margin-bottom: 10vh;
+}
+
+.rowGames .menuBroad img {
+  margin: 0em 2em;
+  display: inline;
+}
+
+.rowGames img:hover, .rowGames img:focus, .rowGames img:active {
+  background-color: #332A35;
+  cursor: pointer;
+}
+
+.gameTextRow{
+  font-size: medium;
+  font-weight: 600;
+}
+
+#tweet:hover{
+  font-size: x-large;
+  font-weight: 600;
+  color:#e2e3e4;
+  transition-duration: 1.5s;
+  text-decoration: none;
+
+}
+
+/* game interface */
+
+.game {
+  min-height: 100vh;
+}
+
+.game h1 {
+  padding-top: 1em;
+  font-family: 'Fjalla One', sans-serif;
+
+}
+
+#memo, #zombie, #punch {
+  display: none;
+}
+
+/* memo game */
+
+#memo {
+  height: 60vh;
+  width: auto;
+}
+
+#memo img {
+  padding: 0;
+  border: none;
+  border-radius: 0;
+}
+
+/* zombie game */
+
+.regeln p {
+  padding: 0.3em;
+  font-weight: 600;
+}
+
+.regeln p img {
+  height: 1.8em;
+  width: auto;
+  padding: 0;
+  border-radius: 0;
+  margin: 0;
+}
