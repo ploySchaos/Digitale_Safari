@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 
 <html lang="de">
+
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, inline-scale=1, shrink-to-fit=no">
 
   <!-- Main CSS -->
-  <link rel="stylesheet" href="src/css/style.css" type="text/css">
+  <link rel="stylesheet" href="src/css/main.css" type="text/css">
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <!-- Font -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
   <title>Digitale Safari</title>
   <link rel="shortcut icon" type="image/x-icon" href="src/img/icon.png">
@@ -60,19 +63,22 @@
       overflow: visible;
     }
 
-    a{
-      color: #ccd500;
+    a {
+      color: #aeb1b7;
       text-decoration: none;
+      border-width: 2px;
+      border-color: #aeb1b7;
     }
 
+    /*
     a:hover{
       text-decoration: underline;
-      color: #a9b119;
-    }
+      color: #F2F3F4;
+    }*/
 
     .slotMachine .slot {
-      height:500px;
-      width:100%;
+      height: 500px;
+      width: 100%;
       background-repeat: no-repeat;
       background-size: 100% auto;
       background-color: #e8dec5;
@@ -126,59 +132,74 @@
     .slot7 {
       background-image: url("src/img/wolpertinger/Ameisenbär_2.jpg");
     }
+
     #casino2 .slot.slot8 {
       background-image: url("src/img/wolpertinger/Fisch_2-1.jpg");
       background-position: center 30%;
     }
+
     .slot9 {
-    background-image: url("src/img/wolpertinger/Gürteltier_2.jpg");
+      background-image: url("src/img/wolpertinger/Gürteltier_2.jpg");
     }
+
     .slot10 {
       background-image: url("src/img/wolpertinger/Hamster_2.jpg");
     }
+
     .slot11 {
       background-image: url("src/img/wolpertinger/Pfau_2.jpg");
     }
+
     #casino2 .slot.slot12 {
-    background-image: url("src/img/wolpertinger/Raupe_2.jpg");
-    background-position: center 20%;
+      background-image: url("src/img/wolpertinger/Raupe_2.jpg");
+      background-position: center 20%;
     }
+
     .slot121 {
       background-image: url("src/img/wolpertinger/Tier_2.jpg");
     }
+
     .slot122 {
       background-image: url("src/img/wolpertinger/Waschbär_2.jpg");
     }
-    .slot13{
+
+    .slot13 {
       background-image: url("src/img/wolpertinger/Ameisenbär_3.jpg");
     }
+
     #casino3 .slot.slot14 {
       background-image: url("src/img/wolpertinger/Fisch_3-1.jpg");
       background-position: center 30%;
     }
-    .slot15{
+
+    .slot15 {
       background-image: url("src/img/wolpertinger/Gürteltier_3.jpg");
     }
+
     #casino3 .slot.slot16 {
       background-image: url("src/img/wolpertinger/Hamster_3.jpg");
       background-position: center 65%;
     }
+
     .slot17 {
       background-image: url("src/img/wolpertinger/Pfau_3.jpg");
     }
+
     .slot18 {
-    background-image: url("src/img/wolpertinger/Raupe_3.jpg");
+      background-image: url("src/img/wolpertinger/Raupe_3.jpg");
     }
+
     .slot181 {
       background-image: url("src/img/wolpertinger/Tier_3.jpg");
     }
+
     .slot182 {
       background-image: url("src/img/wolpertinger/Waschbär_3.jpg");
     }
 
     /*
      * Header
-     */
+     
     .header-line {
       width: 100%;
       position: absolute;
@@ -198,14 +219,13 @@
     header a {
       color: #6C5726;
       font-weight: 700;
-    }
+    }*/
 
 
     /*
      * Casino
      */
-    #casino {
-    }
+  
 
     #casino .content:nth-child(1) {
       text-align: center;
@@ -214,19 +234,19 @@
       min-height: 580px;
     }
 
-    #casino .content > div {
-      padding-top: 165px;
+    #casino .content>div {
+      padding-top: 3%;
       width: 600px;
       margin: 0 auto;
       transform: translateX(30px);
     }
 
-    .machineContainer{
+    .machineContainer {
       padding: 5px 1px 5px 1px;
       height: 735px;
     }
 
-    .slotMachine{
+    .slotMachine {
       width: 33%;
       /*border: 5px solid #CF5178;*/
       display: inline-block;
@@ -234,7 +254,7 @@
     }
 
     #casino .btn-group {
-      margin-top: 150px;
+      margin-top: 180px;
       transform: translateX(-25px);
     }
 
@@ -243,20 +263,26 @@
       background-color: rgb(94, 91, 97);
     }
 
-    #casino .btn-group .btn:hover, .btn-group .btn:focus {
+    #casino .btn-group .btn:hover,
+    .btn-group .btn:focus {
       background-color: rgb(128, 128, 134);
     }
 
+    /* #anpassen .btn-primary{
+      background-color: rgb(94, 91, 97);
+
+    }*/
+
     #textMachine {
-      width:520px;
+      width: 520px;
       height: 67px;
       overflow: hidden;
       display: inline-block;
       text-align: left;
     }
 
-    #dewolpertingert{
-      background-color:rgb(76, 74, 74);
+    #dewolpertingert {
+      background-color: rgb(76, 74, 74);
     }
 
 
@@ -269,97 +295,104 @@
      * Released under the MIT license
      */
     .slotMachineNoTransition {
-        -webkit-transition: none !important;
-        -o-transition: none !important;
-        transition: none !important;
+      -webkit-transition: none !important;
+      -o-transition: none !important;
+      transition: none !important;
     }
 
     .slotMachineBlurFast {
-        -webkit-filter: blur(5px);
-        filter: blur(5px);
+      -webkit-filter: blur(5px);
+      filter: blur(5px);
     }
 
     .slotMachineBlurMedium {
-        -webkit-filter: blur(3px);
-        filter: blur(3px);
+      -webkit-filter: blur(3px);
+      filter: blur(3px);
     }
 
     .slotMachineBlurSlow {
-        -webkit-filter: blur(2px);
-        filter: blur(2px);
+      -webkit-filter: blur(2px);
+      filter: blur(2px);
     }
 
     .slotMachineBlurTurtle {
-        -webkit-filter: blur(1px);
-        filter: blur(1px);
+      -webkit-filter: blur(1px);
+      filter: blur(1px);
     }
 
     .slotMachineGradient {
-        -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0,0,0,0)), color-stop(25%, rgba(0,0,0,1)), color-stop(75%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,0)) );
-        -webkit-mask: url("data:image/svg+xml;utf8,<svg version="1.1" xmlns="http:// www.w3.org/2000/svg" width="0" height="0"><mask id="slotMachineFadeMask" maskUnits="objectBoundingBox" maskContentUnits="objectBoundingBox"><linearGradient id="slotMachineFadeGradient" gradientUnits="objectBoundingBox" x="0" y="0"><stop stop-color="white" stop-opacity="0" offset="0"></stop><stop stop-color="white" stop-opacity="1" offset="0.25"></stop><stop stop-color="white" stop-opacity="1" offset="0.75"></stop><stop stop-color="white" stop-opacity="0" offset="1"></stop></linearGradient><rect x="0" y="-1" width="1" height="1" transform="rotate(90)" fill="url(#slotMachineFadeMask)"></rect></mask></svg>#slotMachineFadeMask");
-        mask: url("data:image/svg+xml;utf8,<svg version="1.1" xmlns="http:// www.w3.org/2000/svg" width="0" height="0"><mask id="slotMachineFadeMask" maskUnits="objectBoundingBox" maskContentUnits="objectBoundingBox"><linearGradient id="slotMachineFadeGradient" gradientUnits="objectBoundingBox" x="0" y="0"><stop stop-color="white" stop-opacity="0" offset="0"></stop><stop stop-color="white" stop-opacity="1" offset="0.25"></stop><stop stop-color="white" stop-opacity="1" offset="0.75"></stop><stop stop-color="white" stop-opacity="0" offset="1"></stop></linearGradient><rect x="0" y="-1" width="1" height="1" transform="rotate(90)" fill="url(#slotMachineFadeMask)"></rect></mask></svg>#slotMachineFadeMask");
+      -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(25%, rgba(0, 0, 0, 1)), color-stop(75%, rgba(0, 0, 0, 1)), color-stop(100%, rgba(0, 0, 0, 0)));
+      -webkit-mask: url("data:image/svg+xml;utf8,<svg version="1.1" xmlns="http: // www.w3.org/2000/svg" width="0" height="0"><mask id="slotMachineFadeMask" maskUnits="objectBoundingBox" maskContentUnits="objectBoundingBox"><linearGradient id="slotMachineFadeGradient" gradientUnits="objectBoundingBox" x="0" y="0"><stop stop-color="white" stop-opacity="0" offset="0"></stop><stop stop-color="white" stop-opacity="1" offset="0.25"></stop><stop stop-color="white" stop-opacity="1" offset="0.75"></stop><stop stop-color="white" stop-opacity="0" offset="1"></stop></linearGradient><rect x="0" y="-1" width="1" height="1" transform="rotate(90)" fill="url(#slotMachineFadeMask)"></rect></mask></svg>#slotMachineFadeMask");
+          mask: url("data:image/svg+xml;utf8,<svg version="1.1" xmlns="http: // www.w3.org/2000/svg" width="0" height="0"><mask id="slotMachineFadeMask" maskUnits="objectBoundingBox" maskContentUnits="objectBoundingBox"><linearGradient id="slotMachineFadeGradient" gradientUnits="objectBoundingBox" x="0" y="0"><stop stop-color="white" stop-opacity="0" offset="0"></stop><stop stop-color="white" stop-opacity="1" offset="0.25"></stop><stop stop-color="white" stop-opacity="1" offset="0.75"></stop><stop stop-color="white" stop-opacity="0" offset="1"></stop></linearGradient><rect x="0" y="-1" width="1" height="1" transform="rotate(90)" fill="url(#slotMachineFadeMask)"></rect></mask></svg>#slotMachineFadeMask");
+  </style>
+
+
+  <style type="text/css" id="wp-custom-css">
+    div#primary,
+    article.page,
+    section.widget {
+
+      background-color: rgba(180, 180, 180, 0.2) !important;
+
     }
-    </style>
 
+    .tg-primary-menu>div>ul>li.tg-header-button-wrap {
 
-		<style type="text/css" id="wp-custom-css">
-    			div#primary, article.page, section.widget {
-
-    	background-color: rgba(180, 180, 180, 0.2) !important;
-
-    }
-
-    .tg-primary-menu > div > ul > li.tg-header-button-wrap {
-
-    	display: none;
+      display: none;
 
     }
 
     header.tg-page-header {
 
-    	background-color: rgba(60, 60, 60, 0.4) !important;
+      background-color: rgba(60, 60, 60, 0.4) !important;
 
     }
 
-    section.widget *, .elementor-widget-text-editor, .elementor-text-editor, nav.navigation.post-navigation *, #respond * {
+    section.widget *,
+    .elementor-widget-text-editor,
+    .elementor-text-editor,
+    nav.navigation.post-navigation *,
+    #respond * {
 
-    	color: #e5e5e5;
-
-    }
-
-    #respond form input, #respond form textarea {
-
-    	color: #000;
+      color: #e5e5e5;
 
     }
 
-    h2.elementor-heading-title, .elementor-divider span {
+    #respond form input,
+    #respond form textarea {
 
-    	color: #db6159 !important;
-    	border-color: #db6159 !important;
+      color: #000;
+
+    }
+
+    h2.elementor-heading-title,
+    .elementor-divider span {
+
+      color: #db6159 !important;
+      border-color: #db6159 !important;
     }
 
     #site-navigation {
 
-    	margin-bottom: -120px;
-    	vertical-align: bottom;
+      margin-bottom: -120px;
+      vertical-align: bottom;
 
     }
 
     article.post .entry-meta * {
-    	color: black;
+      color: black;
     }
 
 
     /* ChamaeleoDaVinci */
     #ChamaeleoDaVinci {
       background-image: url('src/img/chamaeleo/ChamaeleoDaVinci_deckend.png');
-    	background-size: cover;
-    	background-color: #575041;
+      background-size: cover;
+      background-color: #575041;
     }
 
-    figcaption{
-    	color: rgba(214, 198, 172, 1) !important;
+    figcaption {
+      color: rgba(214, 198, 172, 1) !important;
     }
   </style>
 </head>
@@ -368,77 +401,116 @@
 
   <div class="container-fluid">
 
-    <nav class="row">
-      <div class="col col-md-3 logoDiv"><a href="index.html"><img id="logo" src="src/img/logo.png" alt="Digitale Safari"></a></div>
-      <div class="col col-md-9">
-        <ul>
-          <li><a href="vikus/">Entdecken</a></li>
-          <li><a href="herausfordern.html">Herausfordern</a></li>
-          <li><a href="erschaffen.html">Erschaffen</a></li>
-        </ul>
-      </div>
-    </nav>
+    <div class="row">
+      <nav class="navbar navbar-expand-lg navbar-dark row-dark">
+        <div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0">
+            <ul class="navbar-nav ml-auto text-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="vikus/"
+                        title="Vikus Viewer zur Darstellung grafischer Ähnlichkeit">Entdecken</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="erfahren.html">Erfahren</a>
+                </li>
 
-    <!-- Headline -->
-    <div class="row rowCreate">
-      <div class="col col-md-1"></div>
-      <div class="col col-md-10">
-        <h1>Wolpertinger? Gürchthylops?!</h1>
-        <p>
-          Schon mal einen der Begriffe gehört? Beides bezeichnet ein Fabelwesen, das sich aus verschiedenen Tieren zusammensetzt. In Bayern ist der Wolpertinger recht bekannt, aber das Gürchthylops nicht. Warum? Weil es eine Eigenkreation von uns ist: Es setzt sich zusammen aus einem Gürteltier, einem Lurch und einer Antilope.
-          Wenn du dein eigenes Fabelwesen gestalten willst, bist du hier genau richtig: Mit unserer „Wolpertinger“-Slot(h)-Machine kannst du solange spielen, bis du das Fabelwesen gefunden hast, das dir gefällt. Vielleicht gibst du ihm auch einen lustigen Namen?
-          Wie funktioniert die Slot(h)-Machine? Drücke „Mischen“ und dann nach Belieben drei Mal „Stop“. Wir sind gespannt, welches Tier du kreierst und wünschen dir viel Vergnügen!
-          <br><br>P.S.: Die "ent-wolpertingerten" Tiere findest du unter <a href="vikus/">entdecken</a>!
-        </p>
-      </div>
-      <div class="col col-md-1"></div>
+            </ul>
+        </div>
+        <div class="mx-auto my-2 order-0 order-md-1 position-relative">
+            <a class="mx-auto" href="index.html">
+                <img src="src/img/icon.png" id="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2">
+            <ul class="navbar-nav mr-auto text-center">
+                <li class="nav-item">
+                    <a class="nav-link active" href="erschaffen.html">Erschaffen</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="herausfordern.html">Herausfordern</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     </div>
 
+    <!-- Headline -->
+    <div class="row rowDark rowHeading rowErschaffen">
+      <div class="col col-md-2"></div>
+      <div class="col col-md-8">
+        <div class="js-odoo"></div>
+      </div>
+      <div class="col col-md-2"></div>
+    </div>
+    <a id="scrolltotop"></a>
+
     <!-- Wolpertinger Machine -->
-    <div class="row rowDark rowWolpertinger">
-      <div class="col col-md-1"></div>
-      <div class="col col-md-10">
-        <div id="casino" style="padding-top: 30px; box-sizing: border-box;">
+    <div class="row rowDark">
+      <div class="col col-md-2"></div>
+      <div class="col col-md-8">
+        <h1>Wolpertinger? Gürchthylops?!</h1>
+        <p class="gameTextRow">
+          Schon mal einen der Begriffe gehört? Beides bezeichnet ein Fabelwesen, das sich aus verschiedenen Tieren
+          zusammensetzt. In Bayern ist der Wolpertinger recht bekannt, aber das Gürchthylops nicht. Warum? Weil es eine
+          Eigenkreation von uns ist: Es setzt sich zusammen aus einem Gürteltier, einem Lurch und einer Antilope.
+          Wenn du dein eigenes Fabelwesen gestalten willst, bist du hier genau richtig:<br> Mit unserer
+          „Wolpertinger“-Slot(h)-Machine kannst du solange spielen, bis du das Fabelwesen gefunden hast, das dir
+          gefällt. Vielleicht gibst du ihm auch einen lustigen Namen?
+          <br><br><b>Wie funktioniert die Slot(h)-Machine?</b><br><br> Drücke „Mischen“ und dann nach Belieben drei Mal
+          „Stop“. Wir sind gespannt, welches Tier du kreierst und wünschen dir viel Vergnügen!
+          <br><br>P.S.: Die "ent-wolpertingerten" Tiere findest du unter <button class="btn btn-outline-light btn-md"><a
+              href="vikus/" aria-label="Switch to Vikus Viewer Page" >Entdecken</a></button>
+        </p>
+        <div id="casino" style="padding-top: 5px; box-sizing: border-box;">
           <div class="content" style="box-sizing: border-box;">
-          <div id="casinoScreen" style="box-sizing: border-box;">
-          <div id="casino1" class="slotMachine" style="margin-left: -65px;">
-          <div class="slot slot1"> </div>
-          <div class="slot slot2"> </div>
-          <div class="slot slot3"> </div>
-          <div class="slot slot4"> </div>
-          <div class="slot slot5"> </div>
-          <div class="slot slot6"> </div>
-          <div class="slot slot61"> </div>
-          <div class="slot slot62"> </div>
+            <div id="casinoScreen" style="box-sizing: border-box;">
+              <div id="casino1" class="slotMachine" style="margin-left: -65px;">
+                <div class="slot slot1"> </div>
+                <div class="slot slot2"> </div>
+                <div class="slot slot3"> </div>
+                <div class="slot slot4"> </div>
+                <div class="slot slot5"> </div>
+                <div class="slot slot6"> </div>
+                <div class="slot slot61"> </div>
+                <div class="slot slot62"> </div>
+              </div>
+              <div id="casino2" class="slotMachine">
+                <div class="slot slot7"> </div>
+                <div class="slot slot8"> </div>
+                <div class="slot slot9"> </div>
+                <div class="slot slot10"> </div>
+                <div class="slot slot11"> </div>
+                <div class="slot slot12"> </div>
+                <div class="slot slot121"> </div>
+                <div class="slot slot122"> </div>
+              </div>
+              <div id="casino3" class="slotMachine">
+                <div class="slot slot13"> </div>
+                <div class="slot slot14"> </div>
+                <div class="slot slot15"> </div>
+                <div class="slot slot16"> </div>
+                <div class="slot slot17"> </div>
+                <div class="slot slot18"> </div>
+                <div class="slot slot181"> </div>
+                <div class="slot slot182"> </div>
+              </div>
+            </div>
+            <div class="btn-group btn-group-justified" style="margin-top:-2.5em; margin-bottom: 2em; margin-right:3.9em"
+              role="group">
+              <button id="casinoShuffle" class="btn btn-primary btn-lg"
+                style="margin: 0; border-radius: 8px 0px 0px 8px;" type="button">Mischen!</button>
+              <button id="casinoStop" class="btn btn-primary btn-lg" style="margin: 0; border-radius: 0px 8px 8px 0px;"
+                type="button">Stop!</button>
+            </div>
+          </div>
         </div>
-        <div id="casino2" class="slotMachine">
-          <div class="slot slot7"> </div>
-          <div class="slot slot8"> </div>
-          <div class="slot slot9"> </div>
-          <div class="slot slot10"> </div>
-          <div class="slot slot11"> </div>
-          <div class="slot slot12"> </div>
-          <div class="slot slot121"> </div>
-          <div class="slot slot122"> </div>
-        </div>
-        <div id="casino3" class="slotMachine">
-          <div class="slot slot13"> </div>
-          <div class="slot slot14"> </div>
-          <div class="slot slot15"> </div>
-          <div class="slot slot16"> </div>
-          <div class="slot slot17"> </div>
-          <div class="slot slot18"> </div>
-          <div class="slot slot181"> </div>
-          <div class="slot slot182"> </div>
-        </div>
-      </div>
-      <div class="btn-group btn-group-justified" style="margin-top: -100px; margin-bottom: 2em;" role="group">
-        <button id="casinoShuffle" class="btn btn-primary btn-lg" style="margin: 0; border-radius: 8px 0px 0px 8px;" type="button">Mischen!</button>
-        <button id="casinoStop" class="btn btn-primary btn-lg" style="margin: 0; border-radius: 0px 8px 8px 0px;" type="button">Stop!</button>
-      </div>
-      </div>
-      </div>
-      <script src="src/js/SlotMachine/dist/slotmachine.min.js"></script> <script>
+        <script src="src/js/SlotMachine/dist/slotmachine.min.js"></script>
+        <script>
 
           let count = 0;
           const btnShuffle = document.querySelector('#casinoShuffle');
@@ -468,7 +540,7 @@
           });
 
           btnStop.addEventListener('click', () => {
-            switch(count) {
+            switch (count) {
               case 3:
                 mCasino1.stop();
                 break;
@@ -481,49 +553,63 @@
             }
             count--;
           });
-          </script>
+        </script>
       </div>
-      <div class="col col-md-1"></div>
+      <div class="col col-md-2"></div>
     </div>
-
+    <div class="row rowDark spacer">
+      <hr id="spacer-line">
+    </div>
     <!-- Headline -->
-    <div class="row rowCreate">
-      <div class="col col-md-1"></div>
-      <div class="col col-md-10">
+    <div class="row rowDark">
+      <div class="col col-md-2"></div>
+      <div class="col col-md-8">
         <h1>Dein eigenes ChamaeleoDaVinci</h1>
-        <p>
-           Chamäleons passen sich ihrer Umgebung an. @chronohh aka Matthias Müller-Prove (Teilnehmer von Coding da Vinci Nord, 2016) hat unser Maskottchen unter dem Hashtag #CamaeleoDaVinci als Erster via Twitter auf Reisen geschickt und Orten wie Umständen und Momenten farblich angepasst. Eine tolle Idee, wie wir finden! Hier kannst du dein eigenes CamaeleoDaVinci erstellen! Es ist ganz einfach, finde einfach ein (urheberrechtsfreies!) Bild im Internet, das dir gefällt. Lass es dir im Browser anzeigen (Rechtsklick auf das Bild und „Grafik anzeigen“ o.ä.) und kopier die URL aus der Browserzeile in das Eingabefeld unten. „Anpassen!“ drücken und los geht’s. Gefällt’s dir? Falls ja, screenshote das Bild und teil es unter #CamaeleoDaVinci und CC-BY-SA Universitätsbibliothek FAU! [Sollte es Probleme geben, liegt das vermutlich daran, dass die Seite, auf der das Bild liegt automatisches Anfragen nicht erlaubt. Vielleicht gibt’s das Bild von bei einer anderen Quelle? Eine gute Anlaufstelle wäre z.B. die Wikimedia.]
+        <p class="gameTextRow">
+          Chamäleons passen sich ihrer Umgebung an. @chronohh aka Matthias Müller-Prove (Teilnehmer von Coding da Vinci
+          Nord, 2016) hat unser Maskottchen unter dem Hashtag #CamaeleoDaVinci als Erster via Twitter auf Reisen
+          geschickt und Orten wie Umständen und Momenten farblich angepasst. Eine tolle Idee, wie wir finden! Hier
+          kannst du dein eigenes CamaeleoDaVinci erstellen! Es ist ganz einfach, finde einfach ein
+          (urheberrechtsfreies!) Bild im Internet, das dir gefällt. Lass es dir im Browser anzeigen (Rechtsklick auf das
+          Bild und „Grafik anzeigen“ o.ä.) und kopier die URL aus der Browserzeile in das Eingabefeld unten. „Anpassen!“
+          drücken und los geht’s. Gefällt’s dir? Falls ja, screenshote das Bild und teil es unter #CamaeleoDaVinci und
+          CC-BY-SA Universitätsbibliothek FAU! [Sollte es Probleme geben, liegt das vermutlich daran, dass die Seite,
+          auf der das Bild liegt automatisches Anfragen nicht erlaubt. Vielleicht gibt’s das Bild von bei einer anderen
+          Quelle? Eine gute Anlaufstelle wäre z.B. die Wikimedia.]
         </p>
       </div>
-      <div class="col col-md-1"></div>
-    </div>
+      <div class="col col-md-2"></div>
 
-    <!-- ChamaeleoDaVinci -->
-    <div class="row rowCreate" style="background-color: #332a35">
-      <div class="col col-md-1"></div>
-      <div class="col col-md-10">
-        <img id="ChamaeleoDaVinci" style="width: 30em; height: auto;" src="src/img/chamaeleo/ChamaeleoDaVinci_transparent.png">
+      <div class="col col-md-2"></div>
+      <div class="col col-md-8">
+        <img id="ChamaeleoDaVinci" style="width: 50em; height: auto;"
+          src="src/img/chamaeleo/ChamaeleoDaVinci_transparent2.png">
         <br><br><br>
         <div style="text-align: center;">
-        <input id="backgroundInput" style="padding: 0.5em; color: #000;"></input><br><br>
-        <button id="anpassen" onclick="changeBackground();">Anpassen!</button>
+          <input id="backgroundInput" placeholder="Link einfügen" style="padding: 0.5em; color: #000; width: 350px;filter: saturate(180%);"></input><br><br>
+          <button class="btn btn-outline-light btn-md" id="anpassen" onclick="changeBackground();">Anpassen!</button>
         </div>
-
       </div>
-      <div class="col col-md-1"></div>
+      <div class="col col-md-2"></div>
     </div>
-
+    <div class="row rowDark spacer">
+      <hr id="spacer-line">
+    </div>
     <!-- Seepferdchen -->
-    <div class="row rowCreate">
-      <div class="col col-md-1"></div>
-      <div class="col col-md-10">
+    <div class="row rowDark">
+      <div class="col col-md-2"></div>
+      <div class="col col-md-8">
         <h1>Was macht eigentlich ein Seepferdchen so?</h1>
-        <p>
-          In Georg Wolfgang Knorrs ‚Deliciae Naturae Selectae – 1‘ gibt es detailverliebte kolorierte Illustrationen von Korallen und anderen Meerestieren. Diese Sammlung war Katharina der Großen gewidmet. Ob sie sich beim Durchschauen der Seiten auch ein Unterwasserdiorama vorgestellt hat, in dem verschiedenen Bilder gemeinsam vorkommen, interagieren? Wir tun es jedenfalls … und die Geschichten, die dabei entstehen, kannst du dir hier anschauen.
+        <p class="gameTextRow">
+          In Georg Wolfgang Knorrs ‚Deliciae Naturae Selectae – 1‘ gibt es detailverliebte kolorierte Illustrationen von
+          Korallen und anderen Meerestieren. Diese Sammlung war Katharina der Großen gewidmet. Ob sie sich beim
+          Durchschauen der Seiten auch ein Unterwasserdiorama vorgestellt hat, in dem verschiedenen Bilder gemeinsam
+          vorkommen, interagieren? Wir tun es jedenfalls … und die Geschichten, die dabei entstehen, kannst du dir auf unserem <a href="https://twitter.com/DigitaleSafari" target="_blank" id="tweet">&raquo;Twitter&laquo;</a>
+          anschauen.
         </p>
         <video controls src="src/img/wolpertinger/Seepferdchenanimation1_ton.mp4"></video>
       </div>
-      <div class="col col-md-1"></div>
+      <div class="col col-md-2"></div>
     </div>
 
     <!-- Footer -->
@@ -531,9 +617,12 @@
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <ul>
-          <li><a href="http://ub.fau.de" target="_blank"><img src="src/img/logoFAU.png" alt="Logo der FAU Erlangen-Nürnberg"></a></li>
-          <li><a href="http://codingdavinci.de" target="_blank"><img src="src/img/logoCDV.png" alt="Logo von Coding Da Vinci"></a></li>
-          <li><a href="index.html" target="_blank"><img src="src/img/logoBroad.png" alt="Logo von Digitale Safari"></a></li>
+          <li><a href="http://ub.fau.de" target="_blank"><img src="src/img/logoFAU.png"
+                alt="Logo der FAU Erlangen-Nürnberg"></a></li>
+          <li><a href="http://codingdavinci.de" target="_blank"><img src="src/img/logoCDV.png"
+                alt="Logo von Coding Da Vinci"></a></li>
+          <li><a href="index.html" target="_blank"><img src="src/img/logoBroad.png" alt="Logo von Digitale Safari"></a>
+          </li>
         </ul>
         <br><br><br>
         <a href="impressum.html">Impressum</a>
@@ -546,17 +635,45 @@
   </div>
 
   <!-- Bootstrap Scripts -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.rawgit.com/coderitual/odoo/feature/codevember16/lib/odoo.js"></script>
+  
 
+  <!--Script for Header Animation Lizenz: https://codepen.io/coderitual/pen/QKezVb/license-->
+  <script>odoo.default({ el: '.js-odoo', from: 'ERSCHAFFEN', to: 'ERSCHAFFEN', animationDelay: 1000 });</script>
   <!-- Eigene Scripts -->
+
   <script>
     function changeBackground() {
-        var background = document.getElementById("backgroundInput").value;
-        document.getElementById("ChamaeleoDaVinci").style.backgroundImage = "url('" + background + "')";
-        document.getElementById("backgroundInput").value = "";
+      var background = document.getElementById("backgroundInput").value;
+      document.getElementById("ChamaeleoDaVinci").style.backgroundImage = "url('" + background + "')";
+      document.getElementById("backgroundInput").value = "";
     }
+ 
+    var btn = $('#scrolltotop');
+
+    $(window).scroll(function () {
+      if ($(window).scrollTop() > 300) {
+        btn.addClass('show');
+      } else {
+        btn.removeClass('show');
+      }
+    });
+
+    btn.on('click', function (e) {
+      e.preventDefault();
+      $('html, body').scrollTop(0 , '300');
+    });
+
+
   </script>
 
 </body>
