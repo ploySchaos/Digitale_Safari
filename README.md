@@ -8,8 +8,8 @@ Die Website hat vier Teile:<br>
 <b>Entdecken</b> | mit Bildextraktion, Ähnlichkeitsgruppierung und dem Vikus Viewer können die Abbildungen durchstöbert werden.<br>
 <b>Herausfordern</b> | durch Mini-Games, wie Punch-a-Chamaeleon, wird die Sammlung spielerisch erlebbar (Altersgrenze nicht vorgegeben ;) )<br>
 <b>Erschaffen</b> | hier können eigene Wolpertinger & ChamaeleoDaVincis erstellt werden, der Fantasie sind keine Grenzen gesetzt! <br>
-<b>Erfahren</b> | hier verwenden wir Zeichnungen, um Umweltschutzthemen zu transportieren. (neu hinzugekommen im Stipendium)<br>
-Weitere Inhalte unter https://twitter.com/DigitaleSafari
+<b>Erfahren</b> | hier verwenden wir Zeichnungen, um Umweltschutzthemen zu transportieren. (Neu hinzugekommen im Stipendium)<br>
+Weitere Inhalte unter https://twitter.com/DigitaleSafari (neu hinzugekommen im Stipendium) 
 <br><br>
 ## Installation
 Die Website ist "hard gecoded" und sollte, sobald man den Ordner auf einen Server lädt, out of the box funktionieren. Nicht enhalten ist der Vikus Viewer, der 1) Code-Doppelung zum eigentlichen repository wäre und 2) zu viele Bilddateien enthält. Der Code wurde so gut wie möglich auskommentiert, da die Arbeit aber unter Zeitdruck entstand ist die Dokumentation möglicherweise nicht immer eindeutig. Nötige Anpassungen:<br>
