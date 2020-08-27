@@ -35,6 +35,11 @@ a, a:hover, a:focus, a:active {
   width: 100% !important;
 }
 
+.nav-item {
+  padding: 8px;
+
+}
+
 .nav-item:hover {
   color: #F2F3F4;
   font-size: xx-large;
