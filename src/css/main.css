@@ -34,7 +34,6 @@ a, a:hover, a:focus, a:active {
   color: #F2F3F4;
   width: 100% !important;
 }
-
 .nav-item {
   padding: 8px;
 
@@ -839,7 +838,7 @@ li.vibrate:hover .bulletpoint {
 }
 
 .gameTextRow{
-  font-size: medium;
+  font-size: large;
   font-weight: 600;
 }
 
