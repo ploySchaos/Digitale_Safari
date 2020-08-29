@@ -32,3 +32,4 @@ Danke an die klasse Repositorien, die wir dafür nutzen konnten:<br>
 @josex2r https://github.com/josex2r/jQuery-SlotMachine<br>
 @zahard https://github.com/zahard/plants-vs-zombies<br>
 @h5p https://github.com/h5p<br>
+@Text Slotmachine https://gist.github.com/CodeMyUI/6645049922a196f37a5dd0b1d35b7a5a
